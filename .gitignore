@@ -1,0 +1,25 @@
+# Ignorar núcleo de WordPress
+/wp-admin/
+/wp-includes/
+
+# Ignorar todos los plugins
+wp-content/plugins/
+
+# Ignorar contenido dinámico y pesado
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/backups/
+
+# Ignorar configuración sensible
+wp-config.php
+
+# Ignorar archivos del sistema y temporales
+*.log
+*.sql
+*.zip
+*.tar
+*.gz
+.DS_Store
+Thumbs.db
+wp-content/ewww/*.exe
